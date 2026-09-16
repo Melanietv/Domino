@@ -21,4 +21,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Domino-Spiel-Windows
-        path: dist/domino gui jackpot-old.exe
+        path: dist/domino_gui_jackpot-old.exe
