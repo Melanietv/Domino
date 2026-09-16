@@ -16,7 +16,7 @@ jobs:
         pip install pyinstaller pygame
     - name: EXE Datei herstellen
       run: |
-        pyinstaller --onefile --noconsole "domino gui jackpot-old"
+        pyinstaller --onefile --noconsole "domino gui jackpot-old.py"
     - name: Fertiges Spiel bereitstellen
       uses: actions/upload-artifact@v4
       with:
